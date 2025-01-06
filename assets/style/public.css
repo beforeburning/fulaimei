@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #fff;
+}
+
+a[title='站长统计'] {
+    display: none !important;
+}
+
+@font-face {
+    font-family: 'OPPOSans-H';
+    src: url('../font/OPPOSans-H.ttf') format('truetype');
+    font-style: normal;
+}
+
+@keyframes moveCircle {
+    0% {
+        transform: rotate(0deg) translateX(20px) rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(50deg) translateX(20px) rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(0deg) translateX(20px) rotate(0deg);
+    }
+}
+
+.moveCircle {
+    animation: moveCircle 2s linear infinite;
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 11.5%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.moveLeft {
+    animation: moveLeft 3s linear infinite;
+    left: 11.5%;
+}
+
+@keyframes moveBottom {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: -4%;
+    }
+
+    100% {
+        bottom: -4%;
+    }
+}
+
+.moveBottom {
+    animation: moveBottom 6s linear infinite;
+    bottom: 0;
+}
+
+@keyframes moveBottom2 {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: -4%;
+    }
+
+    100% {
+        bottom: -6%;
+    }
+}
+
+.moveBottom2 {
+    animation: moveBottom2 6s linear infinite;
+}
+
+@keyframes moveDisplay {
+
+    0%,
+    49% {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    50%,
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.moveDisplay {
+    animation: moveDisplay 3s linear infinite;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+@keyframes moveTrash {
+    0% {
+        transform: translate(30px, -30px);
+        /* 起点 */
+    }
+
+    100% {
+        transform: translate(-20px, 20px);
+    }
+}
+
+.moveTrash {
+    animation: moveTrash 3s linear infinite;
+}
