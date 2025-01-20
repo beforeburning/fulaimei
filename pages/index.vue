@@ -19,13 +19,13 @@
       <div class="mt-[30px] flex flex-col">
         <div class="flex flex-col" data-aos="fade-up">
           <a
-            href="/1"
+            href="/hanson-da/1"
             class="font-[OPPOSans-H] text-[17px] text-[#4b93a5] leading-[30px] text-left not-italic"
           >
             【聚乙二醇洛塞那肽注射液说明书】>>
           </a>
           <a
-            href="/2"
+            href="/hanson-da/2"
             class="font-[OPPOSans-H] text-[17px] text-[#4b93a5] leading-[30px] text-left not-italic"
           >
             【聚乙二醇洛塞那肽注射液预填充注射笔使用说明】>>
@@ -182,7 +182,7 @@
             <div
               class="before:content-[''] before:flex before:mt-[13px] before:mr-2 before:w-[4px] before:h-[4px] before:rounded-full before:flex-shrink-0 before:bg-dot flex font-[Helvetica] text-[18px] text-black leading-[30px] text-left not-italic"
             >
-              从冰箱中取出药品。提前将药品从冰箱中取出，置于室温环境中，以使药品自然升至室温，请勿阳光直射或采用其他方式加热注射笔。
+              从冰箱中取出药品。您可以在注射前30-40分钟将药品从冰箱中取出，置于室温环境中，以使药品自然升至室温，请勿阳光直射或采用其他方式加热注射笔。
             </div>
             <div
               class="before:content-[''] before:flex before:mt-[13px] before:mr-2 before:w-[4px] before:h-[4px] before:rounded-full before:flex-shrink-0 before:bg-dot flex font-[Helvetica] text-[18px] text-black leading-[30px] text-left not-italic"

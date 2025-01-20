@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   // 页面配置
   app: {
+    baseURL: "/hanson-da/",
     head: {
       charset: "UTF-8",
       viewport:
